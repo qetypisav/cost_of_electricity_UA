@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/White">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="12pt"
+    android:id="@+id/tvFirstTextInfo"
+    android:textColor="@color/colorBlack"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="12pt"
+    android:id="@+id/tvResult1"
+    android:textColor="@color/colorBlack"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="12pt"
+    android:id="@+id/tvSecondTextInfo"
+    android:textColor="@color/colorBlack"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="12pt"
+    android:id="@+id/tvResult2"
+    android:textColor="@color/colorBlack"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="12pt"
+    android:id="@+id/tvThirdTextInfo"
+    android:textColor="@color/colorBlack"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="12pt"
+    android:id="@+id/tvResult3"
+    android:textColor="@color/colorBlack"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/back_to_calculate"
+    android:onClick="btnClickBackToMainCalculate"
+    style="@style/AllButtons"/>
+
+</LinearLayout>

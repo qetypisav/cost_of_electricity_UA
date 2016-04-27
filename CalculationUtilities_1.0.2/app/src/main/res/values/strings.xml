@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Расчет комун. услуг</string>
+    <string name="electrical_energy">Электроенергия</string>
+    <string name="input_last_indication">Введите предыдущие показания</string>
+    <string name="input_current_indication">Введите текущие показания</string>
+    <string name="calculate">Расчитать</string>
+    <string name="categories">Справка: категории</string>
+    <string name="extended_information">Расширенная информация</string>
+    <string name="back_to_calculate">Назад к расчетам</string>
+    <string name="dialog_text_view">В период с 01.05.16 для данной категории расчет производится согласно правил для категорий 1 или 2. Выберите подходящую для вас категорию:</string>
+    <string name="category_1">Категория 1</string>
+    <string name="category_2">Категория 2</string>
+</resources>
